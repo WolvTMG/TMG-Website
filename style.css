@@ -6,6 +6,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 /* @media only screen and (min-width: 600px) {
   .ascii{
   }
@@ -46,17 +48,18 @@ a {
   padding: 15px 32px;
   font-size: 20px;
   margin-top: 20px;
-  margin-left: -1185px
+  left: 150px;
+  position: absolute
 }
 
 .button2 {
-    background-color:white;
-    border: none;
-    color:#1b1b1f;
-    padding: 15px 32px;
-    font-size: 20px;
-    margin-top: -20px;
-    margin-left: 10px;
+  border: none;
+  color:#1b1b1f;
+  padding: 15px 32px;
+  font-size: 20px;
+  margin-top: 20px;
+  left: 400px;
+  position: absolute
 }
 
 .button:hover {
@@ -190,7 +193,7 @@ html {
   color: white;
   font-size: 20px;
   padding-left: 80px;
-  padding-top: 80px;
+  padding-top: 68px;
   font-weight: 200px
 }
 
@@ -321,7 +324,7 @@ p {
   flex-basis: 32%;
   position: relative;
   overflow: hidden;
-  height: 10em;
+  height: 8em;
   background-color: #1b1b1f;
 }
 
@@ -390,7 +393,7 @@ p {
   text-align: left;
   line-height: 36px;
   position: absolute;
-  padding-top: 80px;
+  padding-top: 68px;
   padding-left: 20px
 }
 
