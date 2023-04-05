@@ -38,7 +38,7 @@ a {
   font-family: Roboto;
   color: white;
   padding-left: 150px;
-  padding-top: 300px;
+  padding-top: 350px;
   text-align: left;
   margin: 0px
 }
@@ -89,7 +89,8 @@ a {
 
 .image {
   position: fixed;
-  background-image: url(images/background.jpg);
+  /* background-image: url(images/background.jpg); */
+  background-color: #232326;
   background-size: cover;
   left: 0;
   top: 0;
@@ -126,18 +127,20 @@ html {
   font-family: Roboto;
   color: white;
   text-align: right;
-  font-size: 27px;
+  font-size: 40px;
   padding-right: 50px;
   padding-top: 50px;
+  color: darkgrey
 }
 
 .subclass2 {
   font-family: Roboto;
   color: white;
   text-align: left;
-  font-size: 27px;
+  font-size: 40px;
   padding-left: 50px;
-  padding-top: 50px
+  padding-top: 50px;
+  color: darkgrey
 }
 
 @media(max-width: 720px){
@@ -257,7 +260,8 @@ p {
   right: 0;
   bottom: 0;
   position: absolute;
-  padding-bottom: 280px
+  padding-bottom: 240px;
+  padding-right: 160px
   /* padding-left: 250px */
 }
 
@@ -340,7 +344,6 @@ p {
   height: 8em;
   background-color: #1b1b1f;
 }
-
 
 .projects-col img{
   width: 100%;
