@@ -28,19 +28,9 @@ a {
   font-size: 30px;
   font-family: Roboto;
   color: white;
-  padding-left: 150px;
+  /* padding-left: 150px; */
   padding-top: 150px;
-  text-align: left
-}
-
-.quote2 {
-  font-size: 30px;
-  font-family: Roboto;
-  color: white;
-  padding-left: 150px;
-  padding-top: 350px;
-  text-align: left;
-  margin: 0px
+  /* text-align: left */
 }
 
 .header {
@@ -56,7 +46,7 @@ a {
   padding: 15px 32px;
   font-size: 20px;
   margin-top: 20px;
-  left: 150px;
+  left: 735px;
   position: absolute
 }
 
@@ -66,7 +56,7 @@ a {
   padding: 15px 32px;
   font-size: 20px;
   margin-top: 20px;
-  left: 400px;
+  left: 990px;
   position: absolute
 }
 
@@ -257,11 +247,12 @@ p {
   /* margin-top: 35px; */
   display: flex;
   justify-content: space-between;
-  right: 0;
+  /* right: 0; */
   bottom: 0;
   position: absolute;
   padding-bottom: 240px;
-  padding-right: 160px
+  padding-left: 500px
+  /* padding-right: 160px */
   /* padding-left: 250px */
 }
 
