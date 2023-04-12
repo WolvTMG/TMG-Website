@@ -34,13 +34,6 @@
   max-width: 650px
 }
 
-.text-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px
-}
-
 .languages-title {
   color: white;
   font-size: 30px;
@@ -129,7 +122,7 @@
   color: white;
   font-size: 30px;
   font-family: Roboto;
-  text-align: left;
+  /* text-align: left; */
   margin-top: 50px;
   justify-content: center;
   align-items: center;
@@ -149,14 +142,15 @@ nav img{
 
 .nav-links{
   flex: 1;
-  text-align: center;
+  text-align: right;
+  padding-top: 220px;
   margin-right: 2em;
 }
 
 .nav-links ul  li{
   list-style: none;
   display: inline-block;
-  /* padding: 8px 12px; */
+  padding: 8px 12px;
   position: relative;
 }
 
