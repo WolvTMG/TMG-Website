@@ -62,14 +62,13 @@
   font-size: 20px;
   font-family: Roboto;
   text-align: left;
-  /* margin-top: 20px */
 }
 
 .languages-col {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: px
+  height: 35px
 }
 
 .projects-title {
@@ -81,18 +80,33 @@
   margin-top: 50px
 }
 
-.projects-text {
-  color: darkgrey;
-  font-size: 20px;
-  font-family: Roboto;
-  /* text-align: left; */
-  padding-right: 478px;
-  margin-top: 50px
+.projects {
+  width: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 1rem;
 }
 
-.projects-col {
-  flex-basis: 32%;
-  position: relative;
-  overflow: hidden;
-  height: 8em
+.project-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.project-text {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 10rem;
+  text-align: center;
+}
+
+.project {
+  background-color: #1b1b1f;
+  width: 13rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 1rem;
 }
