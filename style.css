@@ -111,6 +111,11 @@
   margin: 0 1rem;
 }
 
+.project:hover {
+  background-color:#232326;
+  transition: 0.5s
+}
+
 .links-title {
   color: white;
   font-size: 30px;
