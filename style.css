@@ -143,8 +143,10 @@ nav img{
 .nav-links{
   flex: 1;
   text-align: right;
-  padding-top: 220px;
-  margin-right: 2em;
+  padding-left: 474px;
+  padding-top: 100px
+  /* padding-top: 220px; */
+  /* margin-right: 2em; */
 }
 
 .nav-links ul  li{
