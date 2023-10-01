@@ -47,7 +47,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px
+  height: 110px
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0
 }
 
 .languages-text {
@@ -119,7 +133,7 @@
   font-size: 30px;
   font-family: Roboto;
   text-align: left;
-  padding-right: 486px;
+  padding-right: 446px;
   margin-top: 50px
 }
 
@@ -223,3 +237,4 @@ nav img{
 
 /* .text-link {
 } */
+
